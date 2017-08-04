@@ -1,7 +1,7 @@
 FROM centos:7
 USER root
 LABEL      description="jupyterlab demo: jupyterhub" \
-             name="lsstsqre/jld-hub" \
+             name="lsstepo/jld-hub" \
              version="0.1.3"
 RUN  yum install -y epel-release
 RUN  yum repolist

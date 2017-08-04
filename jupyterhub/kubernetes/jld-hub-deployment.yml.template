@@ -12,7 +12,7 @@ spec:
       containers:
         - name: jld-hub
           imagePullPolicy: "Always"
-          image: "lsstsqre/jld-hub"
+          image: "lsstepo/jld-hub"
           ports:
             -
               containerPort: 8000
@@ -25,7 +25,7 @@ spec:
             - name: LAB_CONTAINER_DESCS
               value: {{LAB_CONTAINER_DESCS}}
             - name: LAB_SELECTOR_TITLE
-              value: 'LSST Stack Selector'
+              value: 'LSST EPO Stack Selector'
             # Set these if you want to change them.
             # - name: LAB_MEM_LIMIT
             #   value: '2G'

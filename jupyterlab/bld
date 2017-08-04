@@ -42,7 +42,7 @@ echo "ENV   PYVER=${PYVER}" >> Dockerfile
 cat Dockerfile.common.bottom >> Dockerfile
 desc="JupyterLab demo: LSST Stack (Python ${PYVER})"
 echo "LABEL description=\"${desc}\" \\" >> Dockerfile
-echo "       name=\"lsstsqre/jld-lab\" \\" >> Dockerfile
+echo "       name=\"lsstepo/jld-lab\" \\" >> Dockerfile
 if [ "${BTYPE}" == "r" ]; then
     echo "      version=\"r${MAJ}${MIN}\"" >> Dockerfile
 else
